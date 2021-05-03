@@ -80,7 +80,7 @@ button {
 
 .button.cancel {
   color: var(--expense-color);
-  border: 1.5 px var(--expense-color) solid;
+  border: 1.5px var(--expense-color) solid;
   border-radius: 0.25rem;
   height: 50px;
   margin-top: 0.8rem;

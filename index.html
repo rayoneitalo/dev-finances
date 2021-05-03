@@ -27,7 +27,7 @@
             <span>Entradas</span>
             <img src="./assets/income.svg" alt="income" />
           </h3>
-          <p>R$5.000,00</p>
+          <p id="incomeDisplay">R$5.000,00</p>
         </div>
 
         <div class="card">
@@ -35,7 +35,7 @@
             <span>Saídas</span>
             <img src="./assets/expense.svg" alt="expense" />
           </h3>
-          <p>R$3.000,00</p>
+          <p id="expenseDisplay">R$3.000,00</p>
         </div>
 
         <div class="card total">
@@ -43,7 +43,7 @@
             <span>Total</span>
             <img src="./assets/total.svg" alt="total" />
           </h3>
-          <p>R$2.000,00</p>
+          <p id="totalDisplay">R$2.000,00</p>
         </div>
       </section>
 
@@ -63,43 +63,7 @@
               <th></th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td class="description">Aluguel</td>
-              <td class="expense">- R$450,00</td>
-              <td>16/04/2021</td>
-              <td>
-                <img src="./assets/minus.svg" alt="minus" />
-              </td>
-            </tr>
-
-            <tr>
-              <td class="description">Internet</td>
-              <td class="expense">- R$104,00</td>
-              <td>16/04/2021</td>
-              <td>
-                <img src="./assets/minus.svg" alt="minus" />
-              </td>
-            </tr>
-
-            <tr>
-              <td class="description">Luz</td>
-              <td class="expense">- R$60,00</td>
-              <td>23/04/2021</td>
-              <td>
-                <img src="./assets/minus.svg" alt="minus" />
-              </td>
-            </tr>
-
-            <tr>
-              <td class="description">Consultoria de TI</td>
-              <td class="income">+ R$450,00</td>
-              <td>20/04/2021</td>
-              <td>
-                <img src="./assets/plus.svg" alt="plus" />
-              </td>
-            </tr>
-          </tbody>
+          <tbody></tbody>
         </table>
       </section>
     </main>
@@ -148,6 +112,7 @@
               <a href="#" class="button cancel" onclick="Modal.close()"
                 >Cancelar</a
               >
+
               <button>Salvar</button>
             </div>
           </form>
@@ -156,7 +121,7 @@
     </div>
 
     <footer>
-      <p>dev.finances$</p>
+      <p>2021 - dev.finances$</p>
     </footer>
 
     <script src="script.js"></script>
