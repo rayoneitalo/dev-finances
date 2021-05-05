@@ -218,6 +218,10 @@ td.expense {
   color: var(--expense-color);
 }
 
+td img {
+  cursor: pointer;
+}
+
 /*! Modal ********************************************************************** */
 .modal-overlay {
   position: fixed;
