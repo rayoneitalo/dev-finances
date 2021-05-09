@@ -220,6 +220,11 @@ td.expense {
 
 td img {
   cursor: pointer;
+  opacity: 0.7;
+}
+
+td img:hover {
+  opacity: 1;
 }
 
 /*! Modal ********************************************************************** */
